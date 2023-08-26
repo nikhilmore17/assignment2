@@ -1,0 +1,25 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 10px;
+    contain: none;
+}
+
+.grid-item {
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.aboutme {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-shadow: 0.5px 0.5px #7431f9;
+    color: #7431f9;
+}
+
+.footer {
+    background-color: #7431f9;
+    font-weight: bold;
+}
